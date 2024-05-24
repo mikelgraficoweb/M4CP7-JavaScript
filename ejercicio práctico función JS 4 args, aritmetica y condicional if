@@ -1,0 +1,15 @@
+function CuatroArgumentos(argUno, argDos, argTres, argCuatro) {     //función JS que acepte 4 argumentos
+
+  sumUno=Number(argUno)+Number(argDos);       //Suma los dos primeros argumentos
+  sumDos=Number(argTres)+Number(argCuatro);   //Suma los dos segundos y multiplícalos.
+  num=sumUno*sumDos;                        //y multiplícalos.
+  
+  if (num > 50) {                      //Si el número creado es mayor que 50, la consola registra "¡El número es mayor que 50!".
+    console.log("¡El número es mayor que 50!"); 
+  }
+  if (num < 50) {                    //Si es más pequeño, la consola registra "¡El número es menor que 50!" 
+    console.log("¡El número es menor que 50!"); 
+  }
+}
+console.log(CuatroArgumentos(2,1,3,1)); 
+console.log(CuatroArgumentos(5,7,9,7)); 
